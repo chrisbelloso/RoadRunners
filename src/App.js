@@ -1,12 +1,11 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import './App.css';
-import Checkout from './components/Checkout';
+import MainView from './views/MainView';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route index element={<Checkout />} />
+      <Route path="/" element={<MainView />} />
     </Routes>
     </BrowserRouter>
   );
