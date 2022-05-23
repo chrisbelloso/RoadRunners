@@ -8,7 +8,7 @@ const MainView = () => {
         {/* HEADER */}
 
         <div className="header">
-            <h1 className="mainTitle">
+            <h1 className="headerTitle">
                 ROAD RUNNERS
             </h1>
         </div>
@@ -17,21 +17,13 @@ const MainView = () => {
 
         <div className="container">
             <div>
-                <p className="mainLinks">
-                    Schedule
-                </p>
+            <Link className="mainLinks" to="/booking">Book Ride</Link>
             </div>
             <div>
-                <p className="mainLinks">
+                <Link className="mainLinks" to="/payment">
                     Pay Now
-                </p>
+                </Link>
             </div>
-        </div>
-
-        {/* CONTACT */}
-
-        <div className="contactDiv">
-            <Link className="contact" to="/contact">Contact Me</Link>
         </div>
         </>
     )
