@@ -11,6 +11,9 @@ const MainView = () => {
             <h1 className="headerTitle">
                 ROAD RUNNERS
             </h1>
+            <h4 className="headerSub">
+                Javier Belloso
+            </h4>
         </div>
 
         {/* MAIN LINKS */}
