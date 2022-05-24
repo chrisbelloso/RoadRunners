@@ -21,7 +21,7 @@ const PayView = () => {
             />
             <a 
              className='venmoLink'
-             href="https://www.venmo.com/u/Christian-Belloso">
+             href="https://account.venmo.com/pay?recipients=Christian-Belloso">
                 Send Money
             </a>
         </div>
