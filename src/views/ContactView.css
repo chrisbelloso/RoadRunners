@@ -1,0 +1,64 @@
+.subContainer {
+    margin-top: 50px;
+}
+
+ul {
+    padding-left: 7px;
+    list-style-type: none;
+  }
+  
+#english{
+    padding-left: 2rem;
+    background-image: url(https://pngimg.com/uploads/flags/flags_PNG14592.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1rem;
+    background-repeat: no-repeat;
+  }
+
+#spanish{
+    padding-left: 2rem;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1rem;
+    background-repeat: no-repeat;
+  }
+
+.subContainer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.whaContainer {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whaText {
+    margin-bottom: 30px;
+    background-color: rgb(37, 211, 102);
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+     Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: bolder;
+     color: white;
+     text-decoration: none;
+}
+
+.telText {
+    background-color: rgb(27, 99, 244);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+     Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: bolder;
+     color: white;
+     text-decoration: none;
+}

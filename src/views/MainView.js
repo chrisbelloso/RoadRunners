@@ -18,15 +18,18 @@ const MainView = () => {
 
         {/* MAIN LINKS */}
 
-        <div className="container">
-            <div>
-            <Link className="mainLinks" to="/booking">Book Ride</Link>
-            </div>
-            <div>
+        <div className="linkContainer">
+            <Link className="mainLinks" to="/contact">
+                Contact
+                </Link>
+
                 <Link className="mainLinks" to="/payment">
                     Pay Now
                 </Link>
-            </div>
+                
+                <Link className="mainLinks" to="/booking">
+                    Booking
+                </Link>
         </div>
         </>
     )

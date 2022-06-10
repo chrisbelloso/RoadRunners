@@ -1,103 +1,19 @@
-body {
-    display: flex;
-    justify-content: center;
-}
-
-@keyframes morph {
-        0%, 100% {
-            border-radius:
-            42% 56% 72% 28% / 42% 42% 56% 48%;
-        }
-    33% {
-        border-radius:
-        72% 28% 48% 48% / 28% 28% 72% 72%;
-    }
-    66% {
-        border-radius:
-        100% 56% 56% 100% / 100% 100% 56% 56%;
-    }
-}
-
-.bookingHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 24rem;
-    height: 20rem;
-    border-radius:
-     42% 56% 72% 28% / 42% 42% 56% 48%;
-
-    background: #332c3c;
-    background-size: cover;
-    background-position: center;
-
-    animation: morph 3.75s linear infinite;
-}
-
-
-.headerTitle {
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.subContainer {
-    margin-top: 50px;
-}
-
-ul {
-    padding-left: 7px;
-    list-style-type: none;
-  }
-  
-#english{
-    padding-left: 2rem;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_the_United_States_%28Converted%29.svg);
-    background-position: 0 0;
-    background-size: 1.6rem 1.6rem;
-    background-repeat: no-repeat;
-  }
-
-#spanish{
-    padding-left: 2rem;
-    background-image: url(https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg);
-    background-position: 0 0;
-    background-size: 1.6rem 1rem;
-    background-repeat: no-repeat;
-  }
-
-.subContainer {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.whaContainer {
-    margin-top: 70px;
+.CalendlyContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.whaText {
-    margin-bottom: 30px;
-    background-color: rgb(37, 211, 102);
-    padding: 30px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT',
-     Calibri, 'Trebuchet MS', sans-serif;
-     font-weight: bolder;
-     color: white;
-     text-decoration: none;
+.Calendly {
+    height: 45px;
+    width: 250px;
+    padding-bottom: 35px;
 }
 
-.telText {
+.CalendlyLink {
+    text-decoration: none;
     background-color: rgb(27, 99, 244);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 20px;
     border-radius: 10px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT',

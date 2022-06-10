@@ -1,12 +1,12 @@
-import "./BookingView.css" 
+import './BookingView.css';
 
 const BookingView = () => {
     return(
         <>
+        
+        {/* HEADER */}
 
-         {/* HEADER */}
-
-        <div className="bookingHeader">
+        <div className="header">
             <h1 className="headerTitle">
                 BOOKING
             </h1>
@@ -17,25 +17,35 @@ const BookingView = () => {
         <div className="subContainer">
             <ul>
                 <li id="english">
-                All booking are scheduled contacting me
+                Book a ride through Calendly.
                 </li>
             </ul>
             <ul>
                 <li id="spanish">
-                Todos los servicios deben ser agendados<br />contactandome
+                Agenda un service a traves de Calendly.
                 </li>
             </ul>
         </div>
 
-        {/* WHATSAPP */}
+        {/* CALENDLY */}
 
-        <div className="whaContainer">
-            <a className="whaText" href="https://wa.me/17866037623">💬 Chat on Whatsapp</a>
-            <a className='telText' href="tel: 7866037623"> 📞 Call Now</a>
+        {/* TO CHANGE LINKS AND LOGO */}
+        {/* TO FINISH CALENDLY */}
+
+        <div className='CalendlyContainer'>
+            <img className='Calendly'
+            src="https://cdn1.venmo.com/marketing/images/branding/downloads/venmo_logo_blue.png" 
+            alt="venmo"
+            />
+            <a 
+             className='CalendlyLink'
+             href="https://account.venmo.com/pay?recipients=Christian-Belloso">
+                Book a Ride
+            </a>
         </div>
+
         </>
     )
 }
 
 export default BookingView;
-
