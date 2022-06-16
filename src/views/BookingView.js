@@ -29,19 +29,22 @@ const BookingView = () => {
 
         {/* CALENDLY */}
 
-        {/* TO CHANGE LINKS AND LOGO */}
-        {/* TO FINISH CALENDLY */}
-
         <div className='CalendlyContainer'>
             <img className='Calendly'
-            src="https://cdn1.venmo.com/marketing/images/branding/downloads/venmo_logo_blue.png" 
-            alt="venmo"
+            src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_9b95c3b92b1ef692b5f69baaec6579d5/calendly.png" 
+            alt="calendly"
             />
             <a 
              className='CalendlyLink'
-             href="https://account.venmo.com/pay?recipients=Christian-Belloso">
+             href="https://calendly.com/javierbroadrunners">
                 Book a Ride
             </a>
+        </div>
+
+        <div className='custom'>
+            <h3>
+                *Custumize your trip by contacting me!*
+            </h3>
         </div>
 
         </>

@@ -5,9 +5,9 @@
 }
 
 .Calendly {
-    height: 45px;
+    height: 130px;
     width: 250px;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
 }
 
 .CalendlyLink {
@@ -21,4 +21,12 @@
      font-weight: bolder;
      color: white;
      text-decoration: none;
+}
+
+.custom {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
 }
